@@ -1,0 +1,13 @@
+body {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7bc2ba; }
+
+header,
+nav,
+main,
+footer {
+  margin: 2px;
+  border: 2px, solid, #f00; }
