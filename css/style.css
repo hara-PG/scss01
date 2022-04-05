@@ -11,3 +11,39 @@ main,
 footer {
   margin: 2px;
   border: 2px, solid, #f00; }
+
+header {
+  border-top: 20px solid #7bc2ba; }
+
+.header-contents {
+  width: 1200px;
+  height: 250px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .header-contents__text {
+    border-top: 1px solid #7bc2ba;
+    border-bottom: 1px solid #7bc2ba;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin: 15px 30px; }
+  .header-contents__logo {
+    text-align: center; }
+    .header-contents__logo--mark {
+      margin: 20px 0; }
+
+.text-right {
+  text-align: right; }
+
+.header-image {
+  position: relative;
+  height: 600px;
+  background: #7bc2ba url("../images/bg_header.jpg") no-repeat right center/cover; }
+  .header-image img {
+    position: absolute;
+    top: -50px;
+    right: 5vw; }
