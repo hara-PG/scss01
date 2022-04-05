@@ -8,6 +8,10 @@ body {
   color: #7bc2ba;
 }
 
+a {
+  text-decoration: none;
+}
+
 header,
 nav,
 main,
@@ -16,6 +20,7 @@ footer {
   border: 2px, solid, #f00;
 }
 
+// header部分
 header {
   border-top: 20px solid #7bc2ba;
 }
@@ -57,4 +62,29 @@ header {
     top: -50px;
     right: 5vw;
   }
+}
+
+// nav部分
+nav {
+  background-color: #7bc2ba;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul li {
+  width: 120px;
+  height: 50px;
+}
+
+nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #ffffff;
 }
