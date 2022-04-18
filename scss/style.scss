@@ -2,12 +2,15 @@
 
 // 変数設定
 $standardColor: #7bc2ba;
+$formBackgroundColor: #fff;
+$formColor: #000000;
+
 $pcWidth: 1200px;
 
 // 共通部分
 body {
   font-style: normal;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.8em;
   font-family: Arial, Helvetica, sans-serif;
   color: $standardColor;
@@ -33,15 +36,16 @@ header {
 .header-contents {
   width: $pcWidth;
   height: 250px;
-  margin: 0 auto;
+  margin: 43px auto 88px;
   display: flex;
   justify-content: center;
 
   &__text {
+    width: 50%;
     border-top: 1px solid $standardColor;
     border-bottom: 1px solid $standardColor;
     align-self: flex-end;
-    margin: 15px 30px;
+    margin: 0 30px;
   }
 
   &__logo {
@@ -235,6 +239,11 @@ footer {
 
   & form p {
     margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  & form span {
+    border-bottom: 1px solid $formBackgroundColor;
   }
 
   & form input[type="text"] {
@@ -243,6 +252,8 @@ footer {
     font-size: 1.2em;
     border-radius: 5px;
     border: none;
+    background-color: $formBackgroundColor;
+    color: $formColor;
   }
 
   & form textarea {
@@ -252,6 +263,8 @@ footer {
     font-size: 1.3em;
     border-radius: 5px;
     border: none;
+    background-color: $formBackgroundColor;
+    color: $formColor;
   }
 }
 
